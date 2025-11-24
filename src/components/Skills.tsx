@@ -27,8 +27,8 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 px-4 bg-gradient-to-b from-transparent via-gray-900/30 to-transparent">
-      <div className="max-w-6xl mx-auto">
+    <section id="skills" className="py-20 relative">
+      <div className="max-w-6xl mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Kompetencje <span className="gradient-text">Techniczne</span>
@@ -82,7 +82,7 @@ export default function Skills() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {certificates.map((cert, index) => (
-              <div key={index} className="card-gradient p-6 rounded-xl border border-gray-800 hover:border-teal-500/50 transition-all group">
+              <div key={index} className="card-gradient p-6 rounded-xl border border-gray-800 hover:border-teal-500/50 transition-all duration-300 hover:scale-105 group">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="text-lg font-semibold group-hover:text-teal-400 transition-colors">{cert.name}</h4>
                   <span className="text-sm text-gray-500">{cert.year}</span>

@@ -5,10 +5,12 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import MatrixBackground from './components/MatrixBackground';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
+    <div className="min-h-screen bg-[#0a0a0a] text-white relative">
+      <MatrixBackground />
       <Header />
       <main>
         <Hero />

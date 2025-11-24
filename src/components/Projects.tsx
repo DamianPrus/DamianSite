@@ -37,31 +37,39 @@ export default function Projects() {
       bg: 'bg-cyan-500/10',
       text: 'text-cyan-400',
       border: 'border-cyan-500/50',
-      tag: 'bg-cyan-500/10 text-cyan-400'
+      hoverBorder: 'hover:border-cyan-500/50',
+      tag: 'bg-cyan-500/10 text-cyan-400',
+      groupHoverText: 'group-hover:text-cyan-400'
     },
     blue: {
       bg: 'bg-blue-500/10',
       text: 'text-blue-400',
       border: 'border-blue-500/50',
-      tag: 'bg-blue-500/10 text-blue-400'
+      hoverBorder: 'hover:border-blue-500/50',
+      tag: 'bg-blue-500/10 text-blue-400',
+      groupHoverText: 'group-hover:text-blue-400'
     },
     teal: {
       bg: 'bg-teal-500/10',
       text: 'text-teal-400',
       border: 'border-teal-500/50',
-      tag: 'bg-teal-500/10 text-teal-400'
+      hoverBorder: 'hover:border-teal-500/50',
+      tag: 'bg-teal-500/10 text-teal-400',
+      groupHoverText: 'group-hover:text-teal-400'
     },
     purple: {
       bg: 'bg-violet-500/10',
       text: 'text-violet-400',
       border: 'border-violet-500/50',
-      tag: 'bg-violet-500/10 text-violet-400'
+      hoverBorder: 'hover:border-violet-500/50',
+      tag: 'bg-violet-500/10 text-violet-400',
+      groupHoverText: 'group-hover:text-violet-400'
     }
   };
 
   return (
-    <section id="projects" className="py-20 px-4">
-      <div className="max-w-6xl mx-auto">
+    <section id="projects" className="py-20">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Wybrane <span className="gradient-text">Projekty</span>
@@ -76,12 +84,12 @@ export default function Projects() {
             const colors = colorClasses[project.color as keyof typeof colorClasses];
 
             return (
-              <div key={index} className={`card-gradient p-8 rounded-xl border border-gray-800 hover:${colors.border} transition-all group cursor-pointer`}>
+              <div key={index} className={`card-gradient p-8 rounded-xl border border-gray-800 ${colors.hoverBorder} transition-all duration-300 hover:scale-105 group cursor-pointer`}>
                 <div className={`w-14 h-14 ${colors.bg} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
                   <Icon className={colors.text} size={28} />
                 </div>
 
-                <h3 className={`text-2xl font-semibold mb-3 group-hover:${colors.text} transition-colors`}>
+                <h3 className={`text-2xl font-semibold mb-3 ${colors.groupHoverText} transition-colors`}>
                   {project.title}
                 </h3>
 

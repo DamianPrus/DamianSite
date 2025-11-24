@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, Send } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 px-4 bg-gradient-to-b from-transparent via-gray-900/30 to-transparent">
+    <section id="contact" className="py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -20,7 +20,7 @@ export default function Contact() {
             href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all group text-center"
+            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 group text-center"
           >
             <div className="w-16 h-16 bg-cyan-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
               <Github className="text-cyan-400" size={32} />
@@ -33,7 +33,7 @@ export default function Contact() {
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-all group text-center"
+            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 group text-center"
           >
             <div className="w-16 h-16 bg-blue-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
               <Linkedin className="text-blue-400" size={32} />
@@ -44,7 +44,7 @@ export default function Contact() {
 
           <a
             href="mailto:contact@damianprus.dev"
-            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-teal-500/50 transition-all group text-center"
+            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-teal-500/50 transition-all duration-300 hover:scale-105 group text-center"
           >
             <div className="w-16 h-16 bg-teal-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
               <Mail className="text-teal-400" size={32} />
@@ -96,7 +96,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full px-6 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all flex items-center justify-center space-x-2 group font-semibold"
+              className="w-full px-6 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-2 group font-semibold"
             >
               <span>Wyślij wiadomość</span>
               <Send size={18} className="group-hover:translate-x-1 transition-transform" />
