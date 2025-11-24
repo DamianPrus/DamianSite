@@ -11,13 +11,13 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center space-x-6 text-sm text-gray-500">
-            <a href="#about" className="hover:text-cyan-400 transition-colors">O mnie</a>
+            <a href="#about" className="nav-link-bloom hover:text-blue-400 transition-colors">O mnie</a>
             <span>•</span>
-            <a href="#skills" className="hover:text-cyan-400 transition-colors">Kompetencje</a>
+            <a href="#skills" className="nav-link-bloom hover:text-blue-400 transition-colors">Kompetencje</a>
             <span>•</span>
-            <a href="#projects" className="hover:text-cyan-400 transition-colors">Projekty</a>
+            <a href="#projects" className="nav-link-bloom hover:text-blue-400 transition-colors">Projekty</a>
             <span>•</span>
-            <a href="#contact" className="hover:text-cyan-400 transition-colors">Kontakt</a>
+            <a href="#contact" className="nav-link-bloom hover:text-blue-400 transition-colors">Kontakt</a>
           </div>
         </div>
       </div>

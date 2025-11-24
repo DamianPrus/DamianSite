@@ -82,7 +82,7 @@ export default function Skills() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {certificates.map((cert, index) => (
-              <div key={index} className="card-gradient p-6 rounded-xl border border-gray-800 hover:border-teal-500/50 transition-all duration-300 hover:scale-105 group">
+              <div key={index} className="card-gradient p-6 rounded-xl border border-gray-800 hover:border-teal-500/50 transition-all duration-300 hover:scale-[1.02] group">
                 <div className="flex justify-between items-start mb-2">
                   <h4 className="text-lg font-semibold group-hover:text-teal-400 transition-colors">{cert.name}</h4>
                   <span className="text-sm text-gray-500">{cert.year}</span>

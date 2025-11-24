@@ -82,7 +82,7 @@ export default function Hero() {
 
   return (
     <section
-      className="min-h-screen flex items-center justify-center px-4 pt-16 relative overflow-hidden transition-all duration-100 ease-out origin-center"
+      className="min-h-screen flex items-center justify-center px-4 pt-20 md:pt-16 relative overflow-hidden transition-all duration-100 ease-out origin-center"
       style={heroStyle}
     >
       <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/15 rounded-full blur-3xl animate-pulse transition-opacity duration-100" style={{ opacity: bloomOpacity }}></div>
@@ -111,7 +111,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4 pt-4">
             <button
               onClick={() => scrollToSection('contact')}
-              className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2 group"
+              className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-[1.02] flex items-center space-x-2 group"
             >
               <span>Skontaktuj się</span>
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
@@ -119,7 +119,7 @@ export default function Hero() {
 
             <button
               onClick={() => scrollToSection('projects')}
-              className="px-6 py-3 border border-gray-700 rounded-lg hover:border-cyan-500/50 hover:bg-cyan-500/5 transition-all duration-300 hover:scale-105 flex items-center space-x-2"
+              className="px-6 py-3 border border-gray-700 rounded-lg hover:border-cyan-500/50 hover:bg-cyan-500/5 transition-all duration-300 hover:scale-[1.02] flex items-center space-x-2"
             >
               <Code size={18} />
               <span>Zobacz Projekty</span>

@@ -84,8 +84,8 @@ export default function Projects() {
             const colors = colorClasses[project.color as keyof typeof colorClasses];
 
             return (
-              <div key={index} className={`card-gradient p-8 rounded-xl border border-gray-800 ${colors.hoverBorder} transition-all duration-300 hover:scale-105 group cursor-pointer`}>
-                <div className={`w-14 h-14 ${colors.bg} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}>
+              <div key={index} className={`card-gradient p-8 rounded-xl border border-gray-800 ${colors.hoverBorder} transition-all duration-300 hover:scale-[1.02] group cursor-pointer`}>
+                <div className={`w-14 h-14 ${colors.bg} rounded-xl flex items-center justify-center mb-4 group-hover:scale-[1.05] transition-transform`}>
                   <Icon className={colors.text} size={28} />
                 </div>
 

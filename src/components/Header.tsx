@@ -20,21 +20,21 @@ export default function Header() {
 
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <button onClick={() => scrollToSection('about')} className="hover:text-cyan-400 transition-colors">O mnie</button>
-              <button onClick={() => scrollToSection('skills')} className="hover:text-cyan-400 transition-colors">Kompetencje</button>
-              <button onClick={() => scrollToSection('projects')} className="hover:text-cyan-400 transition-colors">Projekty</button>
-              <button onClick={() => scrollToSection('contact')} className="hover:text-cyan-400 transition-colors">Kontakt</button>
+              <button onClick={() => scrollToSection('about')} className="nav-link-bloom hover:text-blue-400 transition-colors">O mnie</button>
+              <button onClick={() => scrollToSection('skills')} className="nav-link-bloom hover:text-blue-400 transition-colors">Kompetencje</button>
+              <button onClick={() => scrollToSection('projects')} className="nav-link-bloom hover:text-blue-400 transition-colors">Projekty</button>
+              <button onClick={() => scrollToSection('contact')} className="nav-link-bloom hover:text-blue-400 transition-colors">Kontakt</button>
             </div>
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+            <a href="https://github.com/DamianPrus" target="_blank" rel="noopener noreferrer" className="icon-link-bloom hover:text-blue-400 transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+            <a href="https://www.linkedin.com/in/damian-prus5/" target="_blank" rel="noopener noreferrer" className="icon-link-bloom hover:text-blue-400 transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:contact@damianprus.dev" className="hover:text-cyan-400 transition-colors">
+            <a href="mailto:damian.prus.contact@gmail.com" className="icon-link-bloom hover:text-blue-400 transition-colors">
               <Mail size={20} />
             </a>
           </div>
@@ -49,18 +49,18 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-800">
             <div className="flex flex-col space-y-4">
-              <button onClick={() => scrollToSection('about')} className="hover:text-cyan-400 transition-colors text-left">O mnie</button>
-              <button onClick={() => scrollToSection('skills')} className="hover:text-cyan-400 transition-colors text-left">Kompetencje</button>
-              <button onClick={() => scrollToSection('projects')} className="hover:text-cyan-400 transition-colors text-left">Projekty</button>
-              <button onClick={() => scrollToSection('contact')} className="hover:text-cyan-400 transition-colors text-left">Kontakt</button>
+              <button onClick={() => scrollToSection('about')} className="nav-link-bloom hover:text-blue-400 transition-colors text-left">O mnie</button>
+              <button onClick={() => scrollToSection('skills')} className="nav-link-bloom hover:text-blue-400 transition-colors text-left">Kompetencje</button>
+              <button onClick={() => scrollToSection('projects')} className="nav-link-bloom hover:text-blue-400 transition-colors text-left">Projekty</button>
+              <button onClick={() => scrollToSection('contact')} className="nav-link-bloom hover:text-blue-400 transition-colors text-left">Kontakt</button>
               <div className="flex space-x-4 pt-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+                <a href="https://github.com/DamianPrus" target="_blank" rel="noopener noreferrer" className="icon-link-bloom hover:text-blue-400 transition-colors">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+                <a href="https://www.linkedin.com/in/damian-prus5/" target="_blank" rel="noopener noreferrer" className="icon-link-bloom hover:text-blue-400 transition-colors">
                   <Linkedin size={20} />
                 </a>
-                <a href="mailto:contact@damianprus.dev" className="hover:text-cyan-400 transition-colors">
+                <a href="mailto:damian.prus.contact@gmail.com" className="icon-link-bloom hover:text-blue-400 transition-colors">
                   <Mail size={20} />
                 </a>
               </div>

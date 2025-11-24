@@ -17,12 +17,12 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <a
-            href="https://github.com"
+            href="https://github.com/DamianPrus"
             target="_blank"
             rel="noopener noreferrer"
-            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 group text-center"
+            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-cyan-500/50 transition-all duration-300 hover:scale-[1.02] group text-center"
           >
-            <div className="w-16 h-16 bg-cyan-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+            <div className="w-16 h-16 bg-cyan-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-[1.05] transition-transform">
               <Github className="text-cyan-400" size={32} />
             </div>
             <h3 className="text-xl font-semibold mb-2">GitHub</h3>
@@ -30,12 +30,12 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/damian-prus5/"
             target="_blank"
             rel="noopener noreferrer"
-            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 group text-center"
+            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300 hover:scale-[1.02] group text-center"
           >
-            <div className="w-16 h-16 bg-blue-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+            <div className="w-16 h-16 bg-blue-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-[1.05] transition-transform">
               <Linkedin className="text-blue-400" size={32} />
             </div>
             <h3 className="text-xl font-semibold mb-2">LinkedIn</h3>
@@ -43,10 +43,10 @@ export default function Contact() {
           </a>
 
           <a
-            href="mailto:contact@damianprus.dev"
-            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-teal-500/50 transition-all duration-300 hover:scale-105 group text-center"
+            href="mailto:damian.prus.contact@gmail.com"
+            className="card-gradient p-8 rounded-xl border border-gray-800 hover:border-teal-500/50 transition-all duration-300 hover:scale-[1.02] group text-center"
           >
-            <div className="w-16 h-16 bg-teal-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+            <div className="w-16 h-16 bg-teal-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-[1.05] transition-transform">
               <Mail className="text-teal-400" size={32} />
             </div>
             <h3 className="text-xl font-semibold mb-2">Email</h3>
@@ -96,7 +96,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full px-6 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-2 group font-semibold"
+              className="w-full px-6 py-4 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-[1.02] flex items-center justify-center space-x-2 group font-semibold"
             >
               <span>Wyślij wiadomość</span>
               <Send size={18} className="group-hover:translate-x-1 transition-transform" />
